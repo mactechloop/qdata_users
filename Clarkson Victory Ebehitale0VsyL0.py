@@ -23,7 +23,7 @@ st.subheader(""" Dear madam/sir,
 """)
 
 st.write("""In partial fulfillment of the requirement for the award of bachelor in science (B.Sc.) in human nutrition and dietetics, 
-I ……. with registration number …… is conducting a study on ‘Anthropometric (BMI &waist-to-hip-ratio) status of …..”. 
+I Clarkson Victory Ebehitale with registration number "null" is conducting a study on ‘Anthropometric (BMI &waist-to-hip-ratio) status of …..”. 
 Information obtained from this questionnaire is strictly for research purpose and will be kept confidential. 
 Please, answer all questions in each section below.
 """)
@@ -68,7 +68,7 @@ if st.button("Submit Questionnare"):
         })
 
     
-    ref2 = db.reference("/Users/kycSunj6OASdyDgWnL6FTdEQbh23/Questionnaires/UDV77h6e/Count")
+    ref2 = db.reference("/Users/L0XNSv9txgTyRmsQXg0svyTklHz2/Questionnaires/Clarkson Victory Ebehitale0VsyL0/Count")
     a = ref2.get()
     n_a = int(a) + 1
 
@@ -94,7 +94,7 @@ if st.button("Submit Questionnare"):
     ref2.set(str(n_a))
 
 
-    ref = db.reference("/Users/kycSunj6OASdyDgWnL6FTdEQbh23/Questionnaires/UDV77h6e/CollectedData/" + generateRandom())
+    ref = db.reference("/Users/L0XNSv9txgTyRmsQXg0svyTklHz2/Questionnaires/Clarkson Victory Ebehitale0VsyL0/CollectedData/" + generateRandom())
     with open("jsondata.json", "r") as f:
         file_contents = json.load(f)
 

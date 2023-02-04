@@ -44,7 +44,7 @@ def generateRandom():
 
 st.title("Sensory Evaluation of Food Samples")
 
-st.info('Questionnaire For Chiamaka Uka')
+st.info('Questionnaire For Adeniran Peace')
 st.text("___"*100)
 st.write("""
 ## Dear Panelist
@@ -193,7 +193,7 @@ if st.button("Submit Questionnare"):
         })
 
     try:
-        ref2 = db.reference("/Users/g4WDG6gkkhPpTOeoP3szUJf9L603/Questionnaires/hhBT3w7Y/Count")
+        ref2 = db.reference("/Users/JwmEb40ieoUcTi2ZjteCWyxuWqD3/Questionnaires/Pheaxe13RezkAO/Count")
         a = ref2.get()
         print(type(a))
         n_a = int(a) + 1
@@ -219,7 +219,7 @@ if st.button("Submit Questionnare"):
         ref2.set(str(n_a))
 
 
-        ref = db.reference("/Users/g4WDG6gkkhPpTOeoP3szUJf9L603/Questionnaires/hhBT3w7Y/CollectedData/" + generateRandom())
+        ref = db.reference("/Users/JwmEb40ieoUcTi2ZjteCWyxuWqD3/Questionnaires/Pheaxe13RezkAO/CollectedData/" + generateRandom())
         with open("jsondata.json", "r") as f:
             file_contents = json.load(f)
 

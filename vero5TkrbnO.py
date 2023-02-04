@@ -138,7 +138,7 @@ if st.button("Submit Questionnare"):
         })
 
     try:
-        ref2 = db.reference("/Users/s9kYv2qcJ6bpMfUa5g0ZZJn9zvi2/Questionnaires/vero5TkrbnO/Count")
+        ref2 = db.reference("/Users/iJx6DspFaXZPerdAn24EhCIjpSB3/Questionnaires/vero5Urut3n/Count")
         a = ref2.get()
         print(type(a))
         n_a = int(a) + 1
@@ -163,7 +163,7 @@ if st.button("Submit Questionnare"):
         ref2.set(str(n_a))
 
 
-        ref = db.reference("/Users/s9kYv2qcJ6bpMfUa5g0ZZJn9zvi2/Questionnaires/vero5TkrbnO/CollectedData/" + generateRandom())
+        ref = db.reference("/Users/iJx6DspFaXZPerdAn24EhCIjpSB3/Questionnaires/vero5Urut3n/CollectedData/" + generateRandom())
         with open("jsondata.json", "r") as f:
             file_contents = json.load(f)
 

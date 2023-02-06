@@ -141,13 +141,6 @@ g3 = st.slider('Appearance for Sample(G)', 1, 9)
 g4 = st.slider('Aroma for Sample(G)', 1, 9)
 g5 = st.slider('General Acceptability for Sample(G)', 1, 9)
 
-st.subheader("Sample H")
-h1 = st.slider('Taste for Sample(H)', 1, 9)
-h2 = st.slider('Texture for Sample(H)', 1, 9)
-h3 = st.slider('Appearance for Sample(H)', 1, 9)
-h4 = st.slider('Aroma for Sample(H)', 1, 9)
-h5 = st.slider('General Acceptability for Sample(H)', 1, 9)
-
 
 st.text("___"*100)
 
@@ -166,13 +159,13 @@ if st.button("Submit Questionnare"):
 
         myData = {
             generateRandom() : {
-                "Sample": "1, 2, 3, 4, 5, 6, 7, 8",
-                "Taste": str([a1, b1, c1, d1, e1, f1, g1, h1]),
-                "Texture": str([a2, b2, c2, d2, e2, f2, g2, h2]),
-                "Appearance": str([a3, b3, c3, d3, e3, f3, g3, h3]),
-                "Aroma": str([a4, b4, c4, d4, e4, f4, g4, h4]),
-                "General Acceptability": str([a5, b5, c5, d5, e5, f5, g5, h5]),
-                "Pendant":  str([int(n_a), int(n_a), int(n_a), int(n_a), int(n_a), int(n_a), int(n_a), int(n_a)])
+                "Sample": "1, 2, 3, 4, 5, 6, 7",
+                "Taste": str([a1, b1, c1, d1, e1, f1, g1]),
+                "Texture": str([a2, b2, c2, d2, e2, f2, g2]),
+                "Appearance": str([a3, b3, c3, d3, e3, f3, g3]),
+                "Aroma": str([a4, b4, c4, d4, e4, f4, g4]),
+                "General Acceptability": str([a5, b5, c5, d5, e5, f5, g5]),
+                "Pendant":  str([int(n_a), int(n_a), int(n_a), int(n_a), int(n_a), int(n_a), int(n_a)])
             }
         }
 

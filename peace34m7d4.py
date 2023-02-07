@@ -42,9 +42,9 @@ def generateRandom():
 
     return res
 
-st.title("Sensory Evaluation of Abosede Malik Samples")
+st.title("Sensory Evaluation of Food Samples")
 
-st.info('Questionnaire For Uwuilekhue Becky')
+st.info('Questionnaire For Abosede Malik')
 st.text("___"*100)
 st.write("""
 ## Dear Panelist

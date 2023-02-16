@@ -80,7 +80,7 @@ c7 = st.selectbox('(7) Reason For Food Choice', ('A (Cheap)', 'B (Available)', '
 c8 = st.selectbox('(8) Which of these food groups constitute your regular dinner?', ('A (Grains/cereals)', 'B (Legumes)', 'C (Root & Tuber)', 'D (Noodles)'))
 c9 = st.selectbox('(9) Reason For Food Choice', ('A (Cheap)', 'B (Available)', 'C (Easy to Cook)', 'D (Taste)'))
 c10 = st.selectbox('(10) How often do you take snacks?', ('A (Every day)', 'B (Twice a week)', 'C (Thrice a day)', 'D (Not sure)'))
-c11 = st.selectbox('(11) What type of snacks do you consume regularly ', (' A (Soft drink/malt  & doughnut/ pie/bun)', 'B (Soft drink/malt & biscuits)',
+c11 = st.selectbox('(11) What type of snacks do you consume regularly ', ('A (Soft drink/malt  & doughnut/ pie/bun)', 'B (Soft drink/malt & biscuits)',
 'C (Banana & groundnut / Cucumber &groundnut)', 'D (Garri, sugar  & groundnut/Garri & salt)'))
 c12 = st.selectbox('(12) Reason for choice of snack', ('A (Cheap)', 'B (Available)', 'C (Taste)', 'D (Not sure)'))
 c13 = st.selectbox('(13) How often do you eat fruits and vegetables? ', ('A (Every day)', 'B (Twice a week)', 'C (Thrice a day)', 'D (Not sure)'))
